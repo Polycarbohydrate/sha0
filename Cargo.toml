@@ -6,5 +6,6 @@ license = "MIT"
 description = "Nondependent, SHA-0 implementation in Rust"
 keywords = ["crypto", "sha0", "hash", "sha-0", "sha"]
 categories = ["cryptography", "no-std"]
+repository = "https://github.com/Polycarbohydrate/sha0"
 
 [dependencies]
