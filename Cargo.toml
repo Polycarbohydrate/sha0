@@ -1,0 +1,10 @@
+[package]
+name = "sha0"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Nondependent, SHA-0 implementation in Rust"
+keywords = ["crypto", "sha0", "hash", "sha-0", "sha"]
+categories = ["cryptography", "no-std"]
+
+[dependencies]
