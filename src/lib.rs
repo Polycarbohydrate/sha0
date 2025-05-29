@@ -7,7 +7,7 @@
 //! ## Example: Hashing a string
 //!
 //! ```rust
-//! use sha_0::Sha0;
+//! use sha0::Sha0;
 //!
 //! let mut hasher = Sha0::new();
 //! hasher.update(b"hello world");
@@ -18,7 +18,7 @@
 //! ## Example: Hashing a file
 //!
 //! ```rust
-//! use sha_0::Sha0;
+//! use sha0::Sha0;
 //! use std::fs::File;
 //! use std::io::{Read, BufReader};
 //!
@@ -38,7 +38,7 @@
 //! ## Example: Incremental updates
 //!
 //! ```rust
-//! use sha_0::Sha0;
+//! use sha0::Sha0;
 //!
 //! let mut hasher = Sha0::new();
 //! hasher.update(b"hello ");
