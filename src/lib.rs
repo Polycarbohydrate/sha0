@@ -68,7 +68,7 @@ impl Sha0 {
         }
     }
     /// Update the hash with new data
-    fn update(&mut self, input: &[u8]) {
+    pub fn update(&mut self, input: &[u8]) {
         self.length += (input.len() as u64) * 8;
         self.data.extend_from_slice(input);
         while self.data.len() >= 64 {
@@ -78,7 +78,7 @@ impl Sha0 {
         }
     }
     /// Finalize the hash and produce the digest as a hex string
-    fn finalize(mut self) -> String {
+    pub fn finalize(mut self) -> String {
         self.pad();
         while self.data.len() >= 64 {
             let block = self.data[..64].to_vec();

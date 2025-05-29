@@ -8,7 +8,7 @@ SHA-0 is the original version of the Secure Hash Algorithm, published in 1993. I
 Add to your `Cargo.toml`:
 
 ```toml
-sha0 = "0.1"
+sha0 = "0.1.12"
 ```
 
 ### Hashing a string
